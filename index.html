@@ -654,7 +654,7 @@
 
     // 画像とabilityを表示
     slotDiv.innerHTML = `
-        <img src="https://github.com/9dolog/baunty_medal/raw/main/${character.romaji}.PNG" class="characterImageOnly" alt="${character.name}">
+        <img src="https://github.com/9dolog/baunty_party/raw/main/${character.romaji}.PNG" class="characterImageOnly" alt="${character.name}">
         <p>${character.ability}</p>
     `;
 
@@ -746,7 +746,7 @@
             // タッチイベントを追加
             characterDiv.addEventListener('touchstart', (event) => touchStart(event, character));
 
-            characterDiv.innerHTML = `<img src="https://github.com/9dolog/baunty_medal/raw/main/${character.romaji}.PNG" class="characterImageOnly" alt="${character.name}">
+            characterDiv.innerHTML = `<img src="https://github.com/9dolog/baunty_party/raw/main/${character.romaji}.PNG" class="characterImageOnly" alt="${character.name}">
 <strong>${character.name}</strong><br><em>${character.ability}</em><br>タグ: ${character.tags.join(', ')}`;
             container.appendChild(characterDiv);
         });
